@@ -8,8 +8,11 @@ body {
   margin: 40px 120px;
   font-size: 22px;
   transition: ease-out;
+  background-color: #111827;
+  color: #f9fafb;
 }
 button {
+  background-color: goldenrod;
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
@@ -22,6 +25,9 @@ button {
 button:hover {
   transform: scale(1.1) rotate(-2deg);
 }
+a {
+  color: #3b82f6;
+}
 h1 {
   font-family: "Coiny", serif;
   font-size: 2.4rem;
@@ -30,12 +36,27 @@ h1 {
 ul {
   list-style: none;
 }
-li {
-  margin-bottom: 20px;
+
+.category,
+.fact {
+  margin-bottom: 15px;
 }
-a {
-  color: blue;
-  list-style: none;
+
+.fact {
+  align-items: center;
+  background-color: #44403c;
+  border-radius: 16px;
+  display: flex;
+  font-size: 20px;
+  gap: 24px;
+  letter-spacing: -1px;
+  line-height: 1.4;
+  padding: 16px 24px;
+}
+.tag {
+  font-weight: 900;
+  font-size: 16px;
+  color: #f9fafb;
 }
 
 main {
@@ -50,9 +71,15 @@ header {
 .web-app-logo {
   margin-right: 1rem;
 }
+
+.reaction {
+  display: flex;
+}
+
 .react-button {
-  color: black;
-  padding: 3px 15px;
+  background-color: black;
+  font-size: 16px;
+  padding: 2px 10px;
 }
 
 .tech-button {

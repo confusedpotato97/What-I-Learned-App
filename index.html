@@ -28,6 +28,7 @@
       />
       <h1>Today I learned</h1>
     </header>
+    <button>Share a Fact</button>
     <form>
       <input type="text" />
       <input type="text" />
@@ -40,63 +41,80 @@
         <option value="Health">Health</option>
         <option value="History">History</option>
         <option value="News">News</option>
-        <option value="News">News</option>
-        <option value="News">News</option>
-        <option value="News">News</option>
-        <option value="News">News</option>
       </select>
       <button>Post</button>
     </form>
     <main>
       <aside>
         <ul>
-          <li><button>All</button></li>
-          <li><button class="tech-button">Technology</button></li>
-          <li><button class="science-button">Science</button></li>
-          <li><button class="finance-button">Finance</button></li>
-          <li><button class="soc-button">Society</button></li>
-          <li><button class="ent-button">Enterntainment</button></li>
-          <li><button class="health-button">Health</button></li>
-          <li><button class="history-button">History</button></li>
-          <li><button class="news-button">News</button></li>
+          <li class="category"><button>All</button></li>
+          <li class="category">
+            <button class="tech-button">Technology</button>
+          </li>
+          <li class="category">
+            <button class="science-button">Science</button>
+          </li>
+          <li class="category">
+            <button class="finance-button">Finance</button>
+          </li>
+          <li class="category"><button class="soc-button">Society</button></li>
+          <li class="category">
+            <button class="ent-button">Enterntainment</button>
+          </li>
+          <li class="category">
+            <button class="health-button">Health</button>
+          </li>
+          <li class="category">
+            <button class="history-button">History</button>
+          </li>
+          <li class="category"><button class="news-button">News</button></li>
         </ul>
       </aside>
       <section>
         <ul>
-          <li>
+          <li class="fact">
             <p>
               React is being developed by Meta (formerly facebook)
               <a href="https://opensource.fb.com/" target="_blank">Source</a>
-              <span>#technology#</span>
             </p>
-            <div>
+            <span class="tag">#technology#</span>
+
+            <div class="reaction">
               <button class="react-button">👍 <strong>24</strong></button>
               <button class="react-button">🤯 <strong>9</strong></button>
               <button class="react-button">⛔️ <strong>4</strong></button>
             </div>
           </li>
-          <li>
+          <li class="fact">
             <p>
               Millennial dads spend 3 times as much time with their kids than
               their fathers spent with them. In 1982, 43% of fathers had never
-              changed a diaper. Today, that number is down to 3%
+              changed a diaper. Today, that number is down to 3%.
+
               <a
                 href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
                 target="_blank"
+                >Source</a
               >
-                Source</a
-              >
-              <span>#society#</span>
             </p>
-            <div>
+            <span class="tag">#society#</span>
+
+            <div class="reaction">
               <button class="react-button">👍 <strong>24</strong></button>
               <button class="react-button">🤯 <strong>9</strong></button>
               <button class="react-button">⛔️ <strong>4</strong></button>
             </div>
           </li>
-          <li>
-            <p>Lisbon is the capital of Portugal</p>
-            <div>
+          <li class="fact">
+            <p>
+              Lisbon is the capital of Portugal
+              <a href="https://en.wikipedia.org/wiki/Lisbon" target="_blank">
+                Source</a
+              >
+            </p>
+            <span class="tag">#society#</span>
+
+            <div class="reaction">
               <button class="react-button">👍 <strong>24</strong></button>
               <button class="react-button">🤯 <strong>9</strong></button>
               <button class="react-button">⛔️ <strong>4</strong></button>
