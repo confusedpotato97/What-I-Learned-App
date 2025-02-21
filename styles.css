@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Funnel Sans", serif;
+}
+
+body {
+  margin: 40px 120px;
+  font-size: 22px;
+  transition: ease-out;
+}
+button {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Coiny", serif;
+}
+
+button:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
+h1 {
+  font-family: "Coiny", serif;
+  font-size: 2.4rem;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 20px;
+}
+a {
+  color: blue;
+  list-style: none;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+.web-app-logo {
+  margin-right: 1rem;
+}
+.react-button {
+  color: black;
+  padding: 3px 15px;
+}
+
+.tech-button {
+  background-color: #3b82f6;
+}
+.science-button {
+  background-color: #16a34a;
+}
+.finance-button {
+  background-color: #ef4444;
+}
+.soc-button {
+  background-color: #eab308;
+}
+.ent-button {
+  background-color: #db2777;
+}
+.health-button {
+  background-color: #14b8a6;
+}
+.history-button {
+  background-color: #f97316;
+}
+.news-button {
+  background-color: #8b5cf6;
+}
