@@ -29,20 +29,28 @@
       <h1>Today I learned</h1>
     </header>
     <button>Share a Fact</button>
-    <form>
-      <input type="text" />
-      <input type="text" />
-      <select>
-        <option value="Technology">Technology</option>
-        <option value="Science">Science</option>
-        <option value="Finance">Finance</option>
-        <option value="Society">Society</option>
-        <option value="Entertainment">Entertainment</option>
-        <option value="Health">Health</option>
-        <option value="History">History</option>
-        <option value="News">News</option>
-      </select>
-      <button>Post</button>
+    <form class="fact-form">
+      <form class="fact-form">
+        <input
+          type="text"
+          placeholder="Share a fact with the world..."
+          value=""
+        />
+        <span>200</span
+        ><input type="text" placeholder="Trustworthy source..." value="" />
+        <select>
+          <option value="">Choose category:</option>
+          <option value="technology">TECHNOLOGY</option>
+          <option value="science">SCIENCE</option>
+          <option value="finance">FINANCE</option>
+          <option value="society">SOCIETY</option>
+          <option value="entertainment">ENTERTAINMENT</option>
+          <option value="health">HEALTH</option>
+          <option value="history">HISTORY</option>
+          <option value="news">NEWS</option>
+        </select>
+        <button class="btn btn-large" disabled="">Post</button>
+      </form>
     </form>
     <main>
       <aside>
@@ -71,13 +79,15 @@
         </ul>
       </aside>
       <section>
-        <ul>
+        <ul class="fact-list">
           <li class="fact">
             <p>
               React is being developed by Meta (formerly facebook)
               <a href="https://opensource.fb.com/" target="_blank">Source</a>
             </p>
-            <span class="tag">#technology#</span>
+            <span class="tag" style="background-color: #60a5fa"
+              >#technology#</span
+            >
 
             <div class="reaction">
               <button class="react-button">👍 <strong>24</strong></button>
@@ -90,14 +100,13 @@
               Millennial dads spend 3 times as much time with their kids than
               their fathers spent with them. In 1982, 43% of fathers had never
               changed a diaper. Today, that number is down to 3%.
-
               <a
                 href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
                 target="_blank"
                 >Source</a
               >
             </p>
-            <span class="tag">#society#</span>
+            <span class="tag" style="background-color: #fbbf24">#society#</span>
 
             <div class="reaction">
               <button class="react-button">👍 <strong>24</strong></button>
